@@ -1,0 +1,121 @@
+/* Estilos gerais */
+
+/* Cabeçalho */
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    z-index: 1000; /* Garante que o cabeçalho fique acima do conteúdo rolável */
+}
+
+/* Corpo */
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 55px; /* Espaçamento do topo igual à altura do cabeçalho */
+    margin-bottom: 0;
+}
+
+/* Rodapé */
+footer {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    width: 100%;
+    color: #dee2e6;
+    margin-bottom: 0;
+}
+
+footer .fab {
+    color: #dee2e6;
+}
+
+footer .fab:hover {
+    color: #4242d6;
+}
+
+/* Estilo de tabela */
+.table tbody tr {
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Estilo de imagem com sombra */
+.imagem-sombra {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Adapte o valor da sombra conforme necessário */
+}
+
+/* Estilo de imagem arredondada */
+.imagem-arredondada {
+    border-radius: 18px; /* Ou outro valor de arredondamento desejado */
+}
+
+/* Cores */
+.cor-azul {
+    color: #4242D6;
+}
+
+.cor-cinza {
+    color: #6A6C89;
+}
+
+.cor-preto {
+    color: #161616;
+}
+
+.fundo-preto {
+    background-color: #161616;
+}
+
+.cor-branco {
+    color: #fff;
+}
+
+/* Ajuste de cor e padding para a seção de saldo */
+.secao-saldo {
+    padding: 20px;
+    background-color: #4242D6;
+    color: #fff;
+}
+
+/* Estilo para links azuis */
+a.cor-azul {
+    text-decoration: none;
+}
+
+/* Hover para links azuis e brancos */
+a.cor-azul:hover,
+.cor-branco:hover {
+    color: #161616;
+}
+
+/* Hover para ícones de notificação no cabeçalho */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #4242D6;
+}
+
+/* Botão do menu no começo da linha */
+.navbar-toggler {
+    order: -1;
+}
+
+/* Media query para telas menores */
+@media (max-width: 400px) {
+    /* Ajuste do container para telas menores */
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        width: auto;
+    }
+
+    /* Redução do tamanho da fonte para telas menores */
+    body {
+        font-size: 14px;
+    }
+
+    /* Ajustes de estilos para o cabeçalho em telas menores */
+    header {
+        padding: 10px;
+    }
+
+    /* Ajuste de padding para o rodapé */
+    footer {
+        padding: 20px;
+    }
+}
